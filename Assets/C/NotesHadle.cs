@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class NotesHadle : MonoBehaviour
 {
+    public GameObject mon;
+    public GameObject monstr;
     [SerializeField] private int _notes;
     [SerializeField] private Transform _eyes;
     [SerializeField] private GameObject _spotlight;
@@ -16,18 +18,23 @@ public class NotesHadle : MonoBehaviour
         {
             RaycastHit hit;
 
-            if (Physics.Raycast(_eyes.position, _eyes.forward, out hit, 50f))
+            if (Physics.Raycast(_eyes.position, _eyes.forward, out hit, 15f))
             {
                 if (hit.collider.gameObject.name.Contains("Note"))
                 {
                     _notes++;
-                    Destroy(hit.collider.gameobject);
+                    Destroy(hit.collider.gameObject);
                 }
             }
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {
-            _spotlight.SetActive(!_spotlight.activaSelf);
+            _spotlight.SetActive(!_spotlight.activeSelf);
+        }
+        if (_notes == 6)
+        {
+            monstr.active = true;
+            Destroy(mon);
         }
     }
 }
