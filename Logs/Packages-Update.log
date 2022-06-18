@@ -45,7 +45,11 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.13.5 to 1.15.16
   com.unity.timeline from version 1.6.2 to 1.6.4
 
+<<<<<<< HEAD
 === Wed Jun 15 23:11:58 2022
+=======
+=== Wed Jun 15 21:47:54 2022
+>>>>>>> 2f5623b24013c17f30aa4627aa9549c6ac2f008d
 
 Packages were changed.
 Update Mode: updateDependencies
