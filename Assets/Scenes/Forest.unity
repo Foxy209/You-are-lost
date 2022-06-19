@@ -26667,6 +26667,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1146796823
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146796821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.42799, y: 9.664931, z: 18.150238}
+  m_Center: {x: -0.2785962, y: 0.59131837, z: -0.6799488}
 --- !u!1001 &1148632010
 PrefabInstance:
   m_ObjectHideFlags: 0
