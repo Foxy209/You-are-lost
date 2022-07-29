@@ -1,0 +1,273 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unun\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/uniyi/HorrorGleb
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+59826
+Successfully changed project path to: D:/uniyi/HorrorGleb
+D:/uniyi/HorrorGleb
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 104.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path D:/unun/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/uniyi/HorrorGleb/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
+    Vendor:   NVIDIA
+    VRAM:     3961 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'D:/unun/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unun/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unun/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unun/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unun/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unun/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002954 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003912 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\uniyi\HorrorGleb\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\uniyi\HorrorGleb\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3579 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (467.5 KB). Loaded Objects now: 4080.
+Memory consumption went from 155.1 MB to 154.7 MB.
+Total: 4.140100 ms (FindLiveObjects: 0.540500 ms CreateObjectMapping: 0.135300 ms MarkObjects: 3.058000 ms  DeleteObjects: 0.404200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 133199.351775 seconds.
+  path: Assets/Ава.jpg
+  artifactKey: Guid(1a55ec585fd8e5c4799031a219c46c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ава.jpg using Guid(1a55ec585fd8e5c4799031a219c46c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304062dbf0d284492c5736785d4c2190') in 0.097008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.987177 seconds.
+  path: Assets/3.jpg
+  artifactKey: Guid(1a55ec585fd8e5c4799031a219c46c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3.jpg using Guid(1a55ec585fd8e5c4799031a219c46c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaba2e66cbd9bd61035e7207f156651') in 0.131879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.896674 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/27.png
+  artifactKey: Guid(c9c70f7cf7761bb4f96b244adddfe66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/27.png using Guid(c9c70f7cf7761bb4f96b244adddfe66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd565e74cd89d4daa4a71d145f3f9096') in 0.017935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011585 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/28.png
+  artifactKey: Guid(fb23008e8cc0b434a970f05d07e09174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/28.png using Guid(fb23008e8cc0b434a970f05d07e09174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474f7ac020b0486a325eeeffda709a2') in 0.018349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/31.png
+  artifactKey: Guid(3b74ad821976afc4294ef3e7a07e4fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/31.png using Guid(3b74ad821976afc4294ef3e7a07e4fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af003aa45b3c55faeb60806fa0e4a61') in 0.022165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160118 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/32.png
+  artifactKey: Guid(d08464b9ebd961146ac335f54bcb6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/32.png using Guid(d08464b9ebd961146ac335f54bcb6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eea935295cd2950ba06dd23eaa0ce5') in 0.017022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/35.png
+  artifactKey: Guid(6ea107eb0d58fb14a969c863dee76f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/35.png using Guid(6ea107eb0d58fb14a969c863dee76f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3be9a79353ced55f15400f43301562') in 0.020775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003442 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/37.png
+  artifactKey: Guid(cfaffaafb0c51824d8ffc3ca3328dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/37.png using Guid(cfaffaafb0c51824d8ffc3ca3328dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e724ed09d8648ba76bb28d13c5ada') in 0.020035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/36.png
+  artifactKey: Guid(502e056bb18543c43b2a6ad76d5ec4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Spinners/Glowing Triad/36.png using Guid(502e056bb18543c43b2a6ad76d5ec4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67cd087e95ee78cf7665e0da4bad49f') in 0.019346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208503 seconds.
+  path: Assets/Loading Screen Studio/Textures/Demo/Arrow Bold.png
+  artifactKey: Guid(64c42ae9e4e3ce349b36ba759b94765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Demo/Arrow Bold.png using Guid(64c42ae9e4e3ce349b36ba759b94765a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c80b7fb0b0048176c284fa7d820dc0') in 0.014807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250800 seconds.
+  path: Assets/Loading Screen Studio/Textures/Placeholder/Blank.png
+  artifactKey: Guid(2274f41ee83cd984e974cf299df4ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Placeholder/Blank.png using Guid(2274f41ee83cd984e974cf299df4ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72039ec5d03a2c8adb0a621488389045') in 0.017484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.780486 seconds.
+  path: Assets/Loading Screen Studio/Textures/Demo/Check Bold.png
+  artifactKey: Guid(08197d2d5d4779444bd172bb404c51c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Demo/Check Bold.png using Guid(08197d2d5d4779444bd172bb404c51c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a99658a4079833b7f2354b553f1628f') in 0.019601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Filled - x256.png
+  artifactKey: Guid(d03e5fd12621e5149974f2904ce92b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Filled - x256.png using Guid(d03e5fd12621e5149974f2904ce92b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46c1804462a728ab470e2ef116d48fa') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.740734 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 3px.png
+  artifactKey: Guid(9634169c1ea73b54fa2e49b0cb5cd2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 3px.png using Guid(9634169c1ea73b54fa2e49b0cb5cd2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb668380c77ec453dfb8b50790705352') in 0.022284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.332904 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 8px.png
+  artifactKey: Guid(55290eb0063c1fe40b04cd1de2762115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 8px.png using Guid(55290eb0063c1fe40b04cd1de2762115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa91061d6adbfbc1dda2dea3a6255656') in 0.021958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142034 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 8px (x256).png
+  artifactKey: Guid(67286a93aa5c6be4785bc9ce3147ffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 8px (x256).png using Guid(67286a93aa5c6be4785bc9ce3147ffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d90984a39440bf846024012c702302') in 0.028599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.973653 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 10px (x64).png
+  artifactKey: Guid(056733346cac393428ed2911e04ce706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 10px (x64).png using Guid(056733346cac393428ed2911e04ce706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb8d63caca324ea0136fd1191fc1700') in 0.043178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.969499 seconds.
+  path: Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 14px.png
+  artifactKey: Guid(40e73be5aec1b7d44ad42af56509fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Screen Studio/Textures/Border/Circle Outline - Stroke 14px.png using Guid(40e73be5aec1b7d44ad42af56509fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7da3506143bab0e11beba88f892b77') in 0.089754 seconds 
