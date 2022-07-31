@@ -701,7 +701,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Forest
+  m_Text: 'Morge
+
+'
 --- !u!222 &183084916
 CanvasRenderer:
   m_ObjectHideFlags: 0
