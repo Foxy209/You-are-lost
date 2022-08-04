@@ -20,4 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/morge2.unity
     guid: 79e47c961a2c3d04b9d344de265c6264
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 12f718b0bae95e54e8f8b370f0f4f8dd, type: 2}

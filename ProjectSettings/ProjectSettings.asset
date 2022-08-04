@@ -139,7 +139,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 12f718b0bae95e54e8f8b370f0f4f8dd, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Foxy-s-Company.blood-and-die
+    Standalone: com.Foxy-s-Company.You-re-lost
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -720,7 +721,8 @@ PlayerSettings:
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Standalone: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -805,7 +807,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
