@@ -102,19 +102,6 @@ jobs:
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
                 
-      - name: Pushes to another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        if: matrix.targetPlatform == 'WebGL' 
-        env:
-#           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'build'
-          destination-github-username: 'Foxy209'
-          destination-repository-name: 'Foxy209.github.io'
-          user-email: timur.tmn@mail.ru
-          target-branch: main
-
       - run: cd build && zip -9 -r ../${{ matrix.projectPath }}-${{ matrix.targetPlatform }}.zip * && cd ..
           
       - uses: actions/upload-artifact@v2
