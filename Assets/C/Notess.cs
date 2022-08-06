@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Notess : MonoBehaviour
 {
+    public GameObject alt;
     public GameObject mon;
     public GameObject monstr;
     [SerializeField] private int _notes;
@@ -34,6 +35,7 @@ public class Notess : MonoBehaviour
         {
             monstr.active = true;
             Destroy(mon);
+            alt.active = true;
         }
     }
 }
