@@ -1,9 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using TMPro.Examples;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Notess : MonoBehaviour
 {
+    [SerializeField] private Text textScore;
     public GameObject alt;
     public GameObject mon;
     public GameObject monstr;
@@ -24,8 +29,10 @@ public class Notess : MonoBehaviour
                 {
                     _notes++;
                     Destroy(hit.collider.gameObject);
+                    textScore.text = _notes.ToString();
                 }
             }
+           
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {

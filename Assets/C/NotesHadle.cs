@@ -2,9 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using TMPro.Examples;
 
 public class NotesHadle : MonoBehaviour
 {
+    [SerializeField] private Text textScore;
     public GameObject mon;
     public GameObject monstr;
     [SerializeField] private int _notes;
@@ -24,6 +28,7 @@ public class NotesHadle : MonoBehaviour
                 {
                     _notes++;
                     Destroy(hit.collider.gameObject);
+                    textScore.text = "Note = " + _notes.ToString();
                 }
             }
         }
