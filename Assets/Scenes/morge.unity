@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0007644151, g: 0.004182133, b: 0.02051605, a: 1}
+  m_IndirectSpecularColor: {r: 0.0007787092, g: 0.0041236565, b: 0.019990839, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -174,9 +174,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6452460958045574099, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 182.1367
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452460958045574099, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 216.30162
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452460958221101396, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6452460958629776691, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
       propertyPath: m_text
       value: "\u041D\u0435 \u043E\u0431\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0439\u0441\u044F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452460958896182213, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9146757125954515644, guid: ff231fc6523c8f54389fe8ce87d5d362, type: 3}
       propertyPath: m_Name

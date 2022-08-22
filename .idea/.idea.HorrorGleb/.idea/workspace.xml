@@ -11,7 +11,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/C/menulock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/adroid/Joystick Pack/FPG.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/C/menulock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/adroid/DEVKA_SAEBALA.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2D1H1jkvNBGI0qVWItb7MRyUQut" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,6 +25,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,6 +62,11 @@
       <workItem from="1659859463707" duration="99000" />
       <workItem from="1660649344899" duration="1768000" />
       <workItem from="1660654179890" duration="1350000" />
+      <workItem from="1660730760206" duration="182000" />
+      <workItem from="1660730967154" duration="65000" />
+      <workItem from="1660731050217" duration="17000" />
+      <workItem from="1660731087714" duration="58000" />
+      <workItem from="1660731170996" duration="4653000" />
     </task>
     <servers />
   </component>
